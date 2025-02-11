@@ -88,7 +88,7 @@ DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
-DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,pa.googleapis.com
 DOMAIN-SUFFIX,googlemaps.com
 
 IP-CIDR,8.8.8.8/32,no-resolve
