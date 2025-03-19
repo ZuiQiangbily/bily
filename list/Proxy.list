@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
 DOMAIN-SUFFIX,dot.sb
 DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,doh.dns.sb
 DOMAIN-SUFFIX,doh.opendns.com
@@ -47,6 +48,10 @@ DOMAIN-SUFFIX,qichiyu.com
 # DOMAIN-SUFFIX,difyai.com
 DOMAIN-SUFFIX,hsy88.org
 DOMAIN-SUFFIX,xn--mes358acgm99l.com
+
+DOMAIN-SUFFIX,extrabux.com
+DOMAIN-SUFFIX,wallvpn.com
+
 
 DOMAIN-SUFFIX,stotik.com
 DOMAIN-SUFFIX,streetfighter.com
