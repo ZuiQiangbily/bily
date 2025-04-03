@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,xn--mes358acgm99l.com
 
 DOMAIN-SUFFIX,extrabux.com
 DOMAIN-SUFFIX,wallvpn.com
+DOMAIN-SUFFIX,pig.ws
 
 
 DOMAIN-SUFFIX,stotik.com
@@ -129,7 +130,6 @@ DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-SUFFIX,colaotc.com
-DOMAIN-SUFFIX,youtube-downloader.com
 
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
