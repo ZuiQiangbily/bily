@@ -52,7 +52,8 @@ DOMAIN-SUFFIX,leech.ie
 #Anyukit
 DOMAIN-SUFFIX,anys.1010diy.com
 DOMAIN-SUFFIX,google-analytics.com
-
+DOMAIN-SUFFIX,backend.1010diy.com
+DOMAIN-SUFFIX,sb.scorecardresearch.com
 
 # 小牛机场
 DOMAIN-SUFFIX,vns735p8.xyz
