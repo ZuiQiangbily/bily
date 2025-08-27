@@ -1,9 +1,5 @@
 # IP段匹配
 
-# AI
-DOMAIN,ai.opendoor.cn
-
-
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
@@ -48,9 +44,6 @@ DOMAIN-SUFFIX,anys.1010diy.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,anyukit.com
 
-#电影
-DOMAIN-SUFFIX,mv.ziyugui.com
-DOMAIN-SUFFIX,www.ziyugui.com
 
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
