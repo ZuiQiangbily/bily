@@ -1,1 +1,4 @@
-IP-CIDR,199.16.158.0/24,no-resolve
+#Anyukit
+DOMAIN-SUFFIX,anys.1010diy.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,anyukit.com
