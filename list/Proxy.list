@@ -38,7 +38,11 @@ DOMAIN-SUFFIX,shittyurl.org
 DOMAIN-SUFFIX,filetracker.xyz
 DOMAIN-SUFFIX,altrosky.nl
 DOMAIN-SUFFIX,leech.ie
+
+#iTubeGo
 DOMAIN-SUFFIX,itubego.com
+DOMAIN-SUFFIX,shor.link
+DOMAIN-SUFFIX,util.y5s.co
 
 
 DOMAIN-SUFFIX,polymarket.com
