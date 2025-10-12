@@ -185,6 +185,8 @@ dns:
     - +.aerianas.top
     - +.gptacg.top
     - +.wxda.net
+    - +.wuyou0720.久盛电缆.com
+    - +.edu.uodoo.bid
 
 ipv6: true
 
@@ -553,5 +555,6 @@ rule-providers:
   
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
 
 
