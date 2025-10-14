@@ -152,6 +152,7 @@ proxy-groups:
   - {name: GitHub, <<: *default}
   - {name: Reddit, <<: *default}
   - {name: Telegram, <<: *default}
+  - {name: Twitter, <<: *default}
   - {name: WhatsApp, <<: *default}
   - {name: Facebook, <<: *default}
   - {name: BiliBili, <<: *default}
@@ -297,13 +298,13 @@ proxy-groups:
   - name: 美国-手动
     type: select
     include-all: true
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
+    filter: "(?=.*(广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
   - name: 美国-自动
     type: url-test
     include-all: true
     tolerance: 50
     interval: 300
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
+    filter: "(?=.*(广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
 
   # 英国组
   - name: 英国-故转
@@ -362,6 +363,7 @@ rules:
   - RULE-SET,GitHub / Domain,GitHub
   - RULE-SET,Telegram / Domain,Telegram
   - RULE-SET,Telegram / IP,Telegram
+  - RULE-SET,Twitter / Domain,GitHub
   - RULE-SET,WhatsApp / Domain,WhatsApp
   - RULE-SET,Facebook / Domain,Facebook
   - RULE-SET,Apple / Domain,Apple
@@ -462,6 +464,7 @@ rule-providers:
   Google / Domain: {<<: *domain, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
   BiliBili / Domain: {<<: *domain,  url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/bilibili.mrs"}
+  Twitter / Domain: {<<: *domain,  url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/Twitter/Twitter.list"}
   
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
