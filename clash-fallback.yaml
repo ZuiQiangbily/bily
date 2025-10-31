@@ -7,7 +7,7 @@
 proxy-providers:
 
   NanoCloud:
-    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b" 
+    url: "https://47.238.198.94/iv/verify_mode.htm?token=7526062982f330a122d69bbff7c80550" 
     type: http
     interval: 86400
     health-check:
