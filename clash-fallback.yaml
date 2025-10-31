@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  优速通:
-    url: "机场订阅地址"  
+  NanoCloud:
+    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b" 
     type: http
     interval: 86400
     health-check:
