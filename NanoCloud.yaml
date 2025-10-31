@@ -7,7 +7,8 @@
 proxy-providers:
 
   NanoCloud:
-    url: "https://47.238.198.94/iv/verify_mode.htm?token=7526062982f330a122d69bbff7c80550" 
+    url: "https://47.238.198.94/iv/verify_mode.htm?token=883a426e84bd71cf655271eea4979bbe" 
+    service-url: "http://192.168.10.1:25500/sub"
     type: http
     interval: 86400
     health-check:
@@ -15,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-    service-url: "http://192.168.10.1:25500/sub"
+    
             
 
 proxies:
