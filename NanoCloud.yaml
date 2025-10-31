@@ -7,17 +7,19 @@
 proxy-providers:
 
  NanoCloud:
-  # 原始目标URL（需通过订阅转换服务访问）
-  target-url: "https://47.238.198.94/iv/verify_mode.htm?token=883a426e84bd71cf655271eea4979bbe"
+  # 核心：将原始URL通过订阅转换服务处理，直接填写转换后的完整地址
+  url: "http://192.168.10.1:25500/sub?url=https%3A%2F%2F47.238.198.94%2Fiv%2Fverify_mode.htm%3Ftoken%3D883a426e84bd71cf655271eea4979bbe"
   type: http
-  interval: 86400  # 目标URL的访问/同步间隔（秒
-  subscribe-converter:
-    converter-url: "http://192.168.10.1:25500/sub"  # 你的订阅转换服务地址
+  interval: 86400  # 订阅更新间隔（24小时）
+  proxy: 直连
+
+  # 健康检查（同时检查转换服务和网络）
   health-check:
     enable: true
-    url: "https://www.gstatic.com/generate_204"  # 健康检查地址（204请求无内容，适合检测连通性）
-    interval: 300  # 健康检查间隔（秒）
-  proxy: 直连
+    # 检查订阅转换服务是否可用
+    url: "http://192.168.10.1:25500/sub"
+    interval: 60  # 每60秒检查一次转换服务
+    timeout: 10  # 超时时间10秒
             
 
 proxies:
