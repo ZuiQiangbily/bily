@@ -7,7 +7,7 @@
 proxy-providers:
 
    NanoCloud:
-    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b"
+    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b&sub_url=http://192.168.10.1:25500/sub"
     type: http
     interval: 86400
     health-check:
@@ -425,5 +425,6 @@ rule-providers:
   Youtube / Domain: {<<: *domain, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs"}  
   Google / Domain: {<<: *domain, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
+
 
 
