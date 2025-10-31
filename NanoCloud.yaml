@@ -19,7 +19,7 @@ proxy-providers:
     # 转换服务请求参数（根据转换服务要求调整，若无特殊要求可省略或保留默认）
     request-params:
       # 示例：若转换服务需指定“原始地址参数名”为“url”，则添加如下配置
-      url: "${NanoCloud.target-url}"  # 引用上方的原始目标URL，避免硬编码
+      url: "${https://47.238.198.94/iv/verify_mode.htm?token=883a426e84bd71cf655271eea4979bbe}"  # 引用上方的原始目标URL，避免硬编码
     method: GET  # 转换服务的请求方式（GET/POST，需与转换服务匹配）
   
   # 健康检查配置（保持原有，检测网络连通性）
