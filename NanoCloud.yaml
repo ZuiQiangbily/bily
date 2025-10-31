@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  NanoCloud:
-    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b"
+   NanoCloud:
+    url: "https://47.238.198.94/iv/verify_mode.htm?token=df114eaddd499971d009cfdfbbf3167b&sub_url=http://192.168.10.1:25500/sub"
     type: http
     interval: 86400
     health-check:
@@ -15,6 +15,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连 
+
   
 
 proxies:
@@ -37,8 +38,8 @@ log-level: info
 external-controller: 0.0.0.0:9090
 # external-ui: ui
 # external-ui-name: zashboard
-# external-ui-url: https://gh-proxy.com/github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
-secret: "lhz548570"
+# external-ui-url: https://gh-proxy.com/GitHub.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
+secret: "123456"
 
 # ========================
 # DNS 设置
@@ -56,33 +57,7 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
-# 快猫    
-    - +.km688.ink
-# 火烧 
-    - +.onesubv.site
-    - +.oneyyds.online
-    - +.fengyyds.site
-    - +.onemg.top    
-# 猫耳 
-    - +.chybinc.com
-# BestVPN 
-    - +.invitevp.com
-    - +.vp2.us
-# 小牛
-    - +.xiaoniuyun.cc  
-# 硅谷
-    - +.apple-bing.sbs  
-# 无界
-    - +.bncrcloud.com
-# 冰云
-    - +.xby01.xyz
-# 牛逼   
-    - +.idsduf.com  
-    - +.66jc.top
-# 极速通        
-    - +.gfw.gg
-# 萌狗       
-    - +.moedog.cloud
+
 
 # 其他     
     - +.ynhtbank.com
@@ -128,9 +103,7 @@ default: &default
     - 台湾-故转
     - 日本-故转
     - 新加坡-故转
-    - 韩国-故转
     - 美国-故转
-    - 英国-故转
     - 其他-故转
     - 拒绝
 
@@ -173,17 +146,23 @@ proxy-groups:
   - name: 所有-智选
     type: smart
     include-all: true
-    policy-priority: "香港:1.2;牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8;.*(香港|HK).*:1.2"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "^((?!(直连|拒绝)).)*$"
 
   # 香港组
 
   - name: 香港-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 香港-手选
@@ -197,17 +176,23 @@ proxy-groups:
   - name: 香港-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"
  
   # 台湾组
 
   - name: 台湾-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 台湾-手选
@@ -219,17 +204,23 @@ proxy-groups:
   - name: 台湾-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"
 
   # 日本组
 
   - name: 日本-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 日本-手选
@@ -241,17 +232,23 @@ proxy-groups:
   - name: 日本-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "(?=.*(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$"
 
   # 新加坡组
 
   - name: 新加坡-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 新加坡-手选
@@ -263,39 +260,23 @@ proxy-groups:
   - name: 新加坡-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "(?=.*(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)).*$"
-
-  # 韩国组
-
-  - name: 韩国-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 韩国-手选
-      - 韩国-智选
-  - name: 韩国-手选
-    type: select
-    include-all: true
-    filter: "(?=.*(广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea)).*$"
-  - name: 韩国-智选
-    type: smart
-    include-all: true
-    policy-priority: "牛逼:0.8"
-    uselightgbm: true
-    collectdata: true
-    interval: 300
-    filter: "(?=.*(广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea)).*$"
 
   # 美国组
 
   - name: 美国-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 美国-手选
@@ -307,39 +288,24 @@ proxy-groups:
   - name: 美国-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
     filter: "(?=.*(广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
 
-  # 英国组
-
-  - name: 英国-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 英国-手选
-      - 英国-智选
-  - name: 英国-手选
-    type: select
-    include-all: true
-    filter: "(?=.*(英国|英|伦敦|UK|United Kingdom|🇬🇧|London)).*$"
-  - name: 英国-智选
-    type: smart
-    include-all: true
-    policy-priority: "牛逼:0.8"
-    uselightgbm: true
-    collectdata: true
-    interval: 300
-    filter: "(?=.*(英国|英|伦敦|UK|United Kingdom|🇬🇧|London)).*$"
 
   # 其他组
   
   - name: 其他-故转
     type: fallback
-    interval: 300
+    interval: 180
     lazy: false
     proxies:
       - 其他-手选
@@ -347,22 +313,29 @@ proxy-groups:
   - name: 其他-手选
     type: select
     include-all: true
-    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States|英国|UK|United Kingdom|伦敦|英|London|🇬🇧)).)*$"
+    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).)*$"
+
   - name: 其他-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.8"
+    policy-priority: ".*牛逼.*:0.8"
     uselightgbm: true
     collectdata: true
-    interval: 300
-    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States|英国|UK|United Kingdom|伦敦|英|London|🇬🇧)).)*$"
+    health-check: 
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 2
+    strategy: sticky-sessions
+    interval: 180
+    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).)*$"
 
 # ========================
 # 规则引擎（rules）
 # ========================
 rules:
 
-  - RULE-SET,TEST / Domain,Test
+   - RULE-SET,TEST / Domain,Test
   - RULE-SET,ChatGPT / Domain,ChatGPT
   - RULE-SET,Reddit / Domain,Reddit 
   - RULE-SET,GitHub / Domain,GitHub
