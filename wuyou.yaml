@@ -7,7 +7,7 @@
 proxy-providers:
 
   无忧:
-    url: "https://wuyou0720.xn--3iq226gfdb94q.com/api/v1/client/subscribe?token=2d2b8ed5e9425886ca341cd6fc4de7d4" 
+    url: "1234" 
     type: http
     interval: 86400
     health-check:
