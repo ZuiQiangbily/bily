@@ -7,38 +7,26 @@
 proxy-providers:
 
  NanoCloud:
-  # 订阅转换服务配置（核心：通过转换服务处理原始地址）
+  # 原始目标URL（需通过订阅转换服务访问）
+  target-url: "https://47.238.198.94/iv/verify_mode.htm?token=883a426e84bd71cf655271eea4979bbe"
+  type: http
+  interval: 86400  # 目标URL的访问/同步间隔（秒）
+  
+  # 订阅转换服务配置（核心新增部分）
   subscribe-converter:
-    enable: true  # 启用订阅转换
+    enable: true  # 开启订阅转换
     converter-url: "http://192.168.10.1:25500/sub"  # 你的订阅转换服务地址
-    original-url: "https://47.238.198.94/iv/verify_mode.htm?token=883a426e84bd71cf655271eea4979bbe"  # 原始需要转换的订阅地址
-    request-method: "GET"  # 转换服务请求方式（根据服务要求调整，通常为GET）
-    # 转换服务参数（若服务需要指定参数名，如"url"，则自动拼接original-url到converter-url后）
-    params:
-      url: "${NanoCloud.subscribe-converter.original-url}"  # 动态引用原始地址，避免硬编码泄露
-
-  # 基础连接配置
-  type: "http"  # 连接类型
-  interval: 86400  # 订阅更新间隔（秒，24小时）
-  proxy: "直连"  # 网络代理方式
-
-  # 健康检查配置（确保转换服务和网络可用）
+    # 转换服务请求参数（根据转换服务要求调整，若无特殊要求可省略或保留默认）
+    request-params:
+      # 示例：若转换服务需指定“原始地址参数名”为“url”，则添加如下配置
+      url: "${NanoCloud.target-url}"  # 引用上方的原始目标URL，避免硬编码
+    method: GET  # 转换服务的请求方式（GET/POST，需与转换服务匹配）
+  
+  # 健康检查配置（保持原有，检测网络连通性）
   health-check:
-    enable: true  # 启用健康检查
-    checks:
-      - name: "converter-service-check"  # 订阅转换服务健康检查
-        url: "http://192.168.10.1:25500/sub"  # 检查转换服务是否存活
-        interval: 60  # 每60秒检查一次转换服务
-        timeout: 10  # 超时时间10秒
-      - name: "network-connectivity-check"  # 基础网络连通性检查
-        url: "https://www.gstatic.com/generate_204"  # 无内容的204请求，适合检测网络
-        interval: 300  # 每300秒检查一次网络
-        timeout: 10  # 超时时间10秒
-
-  # 转换后订阅的处理配置（根据客户端需求调整）
-  converted-subscribe:
-    auto-update: true  # 自动更新转换后的订阅
-    cache-time: 3600  # 转换结果缓存时间（秒，1小时，减少重复请求）
+    enable: true
+    url: "https://www.gstatic.com/generate_204"  # 健康检查地址（204请求无内容，适合检测连通性）
+    interval: 300  # 健康检查间隔（秒）
     
             
 
