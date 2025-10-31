@@ -9,14 +9,13 @@ proxy-providers:
   无忧:
     url: "https://wuyou0720.xn--3iq226gfdb94q.com/api/v1/client/subscribe?token=2d2b8ed5e9425886ca341cd6fc4de7d4" 
     type: http
-    service-url: "http://192.168.10.1:25500/sub"
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-            
+    service-url: "http://192.168.10.1:25500/sub"         
 
 proxies:
   - {name: 直连, type: direct}
