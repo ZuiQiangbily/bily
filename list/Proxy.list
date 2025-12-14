@@ -141,6 +141,7 @@ IP-CIDR,45.87.172.0/24,no-resolve
 
 #直播
 DOMAIN-SUFFIX,zh.sextb.live
+DOMAIN-SUFFIX,sextb.live
 DOMAIN-SUFFIX,doppiocdn.live
 DOMAIN-SUFFIX,edge-hls.doppiocdn.live
 DOMAIN-SUFFIX,img.doppiocdn.live
