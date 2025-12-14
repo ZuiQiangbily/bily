@@ -1,6 +1,3 @@
-
-
-
 # IP段匹配
 IP-CIDR,142.171.133.0/24,no-resolve
 IP-CIDR,103.115.43.0/24,no-resolve
@@ -145,7 +142,7 @@ DOMAIN-SUFFIX,sextb.live
 DOMAIN-SUFFIX,doppiocdn.live
 DOMAIN-SUFFIX,edge-hls.doppiocdn.live
 DOMAIN-SUFFIX,img.doppiocdn.live
-
+DOMAIN-SUFFIX,go.sextb.live
 
 DOMAIN-SUFFIX,amoyshare.info
 DOMAIN-SUFFIX,sbi6.neoventis.sbs
