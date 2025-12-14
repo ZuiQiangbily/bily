@@ -28,12 +28,10 @@ DOMAIN-SUFFIX,leech.ie
 #直播
 DOMAIN-SUFFIX,zh.sextb.live
 DOMAIN-SUFFIX,doppiocdn.live
-DOMAIN-SUFFIX,display.lovense-api.com
-DOMAIN-SUFFIX,b-hls-17.doppiocdn.live
-DOMAIN-SUFFIX,websocket-v6.sc-apps.com
-DOMAIN-SUFFIX,assets.striiiipst.com
-
+DOMAIN-SUFFIX,edge-hls.doppiocdn.live
 DOMAIN-SUFFIX,img.doppiocdn.live
+
+
 DOMAIN-SUFFIX,amoyshare.info
 DOMAIN-SUFFIX,sbi6.neoventis.sbs
 DOMAIN-SUFFIX,sh9f.lumintrixagency.shop
