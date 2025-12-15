@@ -1,18 +1,14 @@
 
 
-DOMAIN-SUFFIX,amoyshare.info
-DOMAIN-SUFFIX,sbi6.neoventis.sbs
-DOMAIN-SUFFIX,sh9f.lumintrixagency.shop
-DOMAIN-SUFFIX,g4vsrqvtrj.harborcrestdesignhouse.shop
-DOMAIN-SUFFIX,backend.1010diy.com
-
+#直播
+doppiocdn.org
 
 
 # AI
 # DOMAIN,ai.opendoor.cn
 
-# 小牛
-# DOMAIN-SUFFIX,xiaoniuyun.cc
+# 九宵云
+DOMAIN-SUFFIX,shop.starpro.one
 
 DOMAIN-SUFFIX,fastlydns.net
 DOMAIN-SUFFIX,bncrcloud.com
