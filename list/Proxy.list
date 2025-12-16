@@ -12,23 +12,10 @@ DOMAIN-SUFFIX,zh.sextb.live
 DOMAIN-SUFFIX,anyukit.com
 DOMAIN-SUFFIX,anys.1010diy.com
 
-
-
-# AI
-# DOMAIN,ai.opendoor.cn
-
-# 九宵云
-DOMAIN-SUFFIX,shop.starpro.one
-
-DOMAIN-SUFFIX,fastlydns.net
-DOMAIN-SUFFIX,bncrcloud.com
-# ssrdog
-DOMAIN-SUFFIX,ssrdog222.com
-DOMAIN-SUFFIX,hosbbq.com
-DOMAIN-SUFFIX,ssrdog7.com
-DOMAIN-SUFFIX,ssrdog8.com
-DOMAIN-SUFFIX,ssrdog9.com
-DOMAIN-SUFFIX,ssrdog.com
+#Mitce
+DOMAIN-SUFFIX,mitce.net
+DOMAIN-SUFFIX,app.mitce.net
+DOMAIN-SUFFIX,link-t7.com
 
 
 # 国外DNS
@@ -79,12 +66,6 @@ DOMAIN-SUFFIX,eohut.com
 DOMAIN-SUFFIX,ednovas.tech
 
 
-
-# 小牛机场
-DOMAIN-SUFFIX,vns735p8.xyz
-DOMAIN-SUFFIX,i4z65c0h.xyz
-DOMAIN-SUFFIX,v140oy1s.xyz
-DOMAIN-SUFFIX,tcb54710.xyz
 
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
