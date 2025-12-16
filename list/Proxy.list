@@ -3,6 +3,8 @@
 #直播
 DOMAIN-SUFFIX,doppiocdn.org
 DOMAIN-SUFFIX,doppiocdn.live
+DOMAIN-SUFFIX,go.sextb.live
+DOMAIN-SUFFIX,zh.sextb.live
 
 #anyukit
 DOMAIN-SUFFIX,anyukit.com
