@@ -53,7 +53,6 @@ DOMAIN-SUFFIX,loader.media
 
 
 #youtube
-DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,clients2.google.com
 DOMAIN-SUFFIX,translate.google.com
 
