@@ -54,9 +54,7 @@ DOMAIN-SUFFIX,loo3laej.com
 DOMAIN-SUFFIX,loader.media
 
 # 其他网站
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,dual-subtitles.com
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,tiny-vps.com
 DOMAIN-SUFFIX,zemoj.com
