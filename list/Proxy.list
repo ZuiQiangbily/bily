@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,doppiocdn.live
 DOMAIN-SUFFIX,doppiocdn.com
 
 
+#电影
+DOMAIN-SUFFIX,ziyugui.com
+
 
 #anyukit
 DOMAIN-SUFFIX,anyukit.com
@@ -36,6 +39,10 @@ DOMAIN-SUFFIX,6.66jc.top
 DOMAIN-SUFFIX,zhuzhuzhu.whtjdasha.com
 DOMAIN-SUFFIX,whtjdasha.com
 DOMAIN-SUFFIX,jueduibupao.top
+
+
+#九宵云
+DOMAIN-SUFFIX,shop.starpro.one
 
 # 国外DNS
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
