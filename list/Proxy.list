@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,loader.media
 
 # 其他网站
 DOMAIN-SUFFIX,dual-subtitles.com
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,clients2.google.com
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,tiny-vps.com
 DOMAIN-SUFFIX,zemoj.com
