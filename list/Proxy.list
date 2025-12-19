@@ -51,10 +51,18 @@ DOMAIN-SUFFIX,sc-apps.com
 DOMAIN-SUFFIX,loo3laej.com
 DOMAIN-SUFFIX,loader.media
 
-# 其他网站
+
+#youtube
 DOMAIN-SUFFIX,dual-subtitles.com
 DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,video.google.com
+
+
+
+# 其他网站
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,tiny-vps.com
 DOMAIN-SUFFIX,zemoj.com
