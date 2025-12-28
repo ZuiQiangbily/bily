@@ -10,18 +10,11 @@ DOMAIN-SUFFIX,turn.doppiocdn.com
 
 #电影
 DOMAIN-SUFFIX,ziyugui.com
-DOMAIN-SUFFIX,ziyugui.net
-
 
 
 #anyukit
 DOMAIN-SUFFIX,anyukit.com
 DOMAIN-SUFFIX,anys.1010diy.com
-
-#Mitce
-DOMAIN-SUFFIX,mitce.net
-DOMAIN-SUFFIX,app.mitce.net
-DOMAIN-SUFFIX,link-t7.com
 
 
 #NanoCloud
@@ -61,9 +54,8 @@ DOMAIN-SUFFIX,loo3laej.com
 DOMAIN-SUFFIX,loader.media
 
 
-#youtube
-DOMAIN-SUFFIX,clients2.google.com
-DOMAIN-SUFFIX,translate.google.com
+#GoogleMap
+DOMAIN-SUFFIX,gstatic.com
 
 
 
