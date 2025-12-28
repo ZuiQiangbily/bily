@@ -57,6 +57,12 @@ DOMAIN-SUFFIX,loader.media
 #GoogleMap
 DOMAIN-SUFFIX,gstatic.com
 
+#浏览器
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,signalr.net
+#应用
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,bing.com
 
 
 # 其他网站
