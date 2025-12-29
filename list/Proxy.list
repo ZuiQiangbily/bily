@@ -60,9 +60,13 @@ DOMAIN-SUFFIX,gstatic.com
 #浏览器
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,signalr.net
-#应用
-DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,bing.com
+
+视频网站
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,xgore.net
+
+
 
 
 # 其他网站
