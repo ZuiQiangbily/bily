@@ -221,3 +221,16 @@ DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-SUFFIX,colaotc.com
+
+IP-CIDR,120.226.157.0/24,no-resolve
+IP-CIDR,36.131.130.0/24,no-resolve
+IP-CIDR,118.26.252.0/24,no-resolve
+IP-CIDR,112.49.65.0/24,no-resolve
+IP-CIDR,111.62.68.0/24,no-resolve
+IP-CIDR,111.13.213.0/24,no-resolve
+IP-CIDR,111.13.53.0/24,no-resolve
+IP-CIDR,58.241.139.0/24,no-resolve
+IP-CIDR,43.248.116.0/24,no-resolve
+IP-CIDR,39.156.44.0/24,no-resolve
+IP-CIDR,36.131.130.0/24,no-resolve
+IP-CIDR,31.200.249.0/24,no-resolve
