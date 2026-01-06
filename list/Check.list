@@ -1,4 +1,3 @@
-IP-CIDR,142.251.215.0/24,no-resolve
 
 DOMAIN-SUFFIX,yalala.com
 DOMAIN-SUFFIX,whois.pconline.com.cn
@@ -15,8 +14,6 @@ DOMAIN-SUFFIX,ipcheck.im
 
 DOMAIN,speed.cloudflare.com
 DOMAIN-SUFFIX,fast.com
-# DOMAIN,ichnaea-web.netflix.com
-# DOMAIN-SUFFIX,1.oca.nflxvideo.net
 DOMAIN-SUFFIX,speedcheck.org
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,speedtest.cn
@@ -40,7 +37,6 @@ DOMAIN-SUFFIX,ip-api.com
 
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,888005.xyz
 DOMAIN-SUFFIX,incolumitas.com
 
 DOMAIN-SUFFIX,null-addr.com
@@ -67,5 +63,3 @@ DOMAIN-SUFFIX,ipaddress.me
 DOMAIN-SUFFIX,ip2proxy.com
 DOMAIN-SUFFIX,vpnapi.io
 
-
-IP-CIDR,74.125.250.129/24,no-resolve
