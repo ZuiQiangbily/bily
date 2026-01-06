@@ -223,7 +223,6 @@ DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-SUFFIX,colaotc.com
 
 
-IP-CIDR,117.186.171.0/24,no-resolve
 IP-CIDR,223.111.242.0/24,no-resolve
 IP-CIDR,223.111.24.0/24,no-resolve
 IP-CIDR,223.109.233.0/24,no-resolve
