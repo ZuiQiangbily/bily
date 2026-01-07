@@ -62,12 +62,12 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,bing.com
 
-视频网站
+#视频网站
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,xgore.net
 
-
-
+#论坛
+DOMAIN-SUFFIX,wikiwand.com
 
 # 其他网站
 DOMAIN-SUFFIX,dual-subtitles.com
