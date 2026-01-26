@@ -62,8 +62,9 @@ DOMAIN-SUFFIX,loo3laej.com
 #论坛
 DOMAIN-SUFFIX,wikiwand.com
 
-# 其他网站
+#其他网站
 DOMAIN-SUFFIX,strpst.com
 
-
+#壁纸
+DOMAIN-SUFFIX,alphacoders.com
 
