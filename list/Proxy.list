@@ -32,9 +32,6 @@ DOMAIN-SUFFIX,airport.com
 DOMAIN-SUFFIX,alicdn.win
 
 
-
-
-
 #牛逼
 DOMAIN-SUFFIX,6.66jc.top
 DOMAIN-SUFFIX,zhuzhuzhu.whtjdasha.com
@@ -56,24 +53,20 @@ DOMAIN-SUFFIX,x.com
 
 #
 DOMAIN-SUFFIX,xgore.net
-DOMAIN-SUFFIX,cloud-herdeaths.top
-
-#安全
-DOMAIN-SUFFIX,loo3laej.com
 
 
 #论坛
 DOMAIN-SUFFIX,wikiwand.com
 
-#其他网站
-DOMAIN-SUFFIX,strpst.com
 
 #壁纸
 DOMAIN-SUFFIX,alphacoders.com
-
 
 #爱好
 DOMAIN-SUFFIX,missav.run
 DOMAIN-SUFFIX,missav.live
 DOMAIN-SUFFIX,123av.com
 DOMAIN-SUFFIX,missav123.to
+
+#地图
+DOMAIN-SUFFIX,moomoo.me
