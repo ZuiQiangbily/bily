@@ -43,7 +43,11 @@ DOMAIN-SUFFIX,jueduibupao.top
 
 #九宵云
 DOMAIN-SUFFIX,shop.starpro.one
- 
+
+#灯塔
+DOMAIN-SUFFIX,dengta.cloud
+
+
 
 #浏览器
 DOMAIN-SUFFIX,microsoft.com
