@@ -29,9 +29,13 @@ DOMAIN-SUFFIX,sub.store
 #NanoCloud
 DOMAIN-SUFFIX,360buyimg.men
 DOMAIN-SUFFIX,yuque.men
-DOMAIN-SUFFIX,47.76.155.27
-DOMAIN-SUFFIX,airport.com
-DOMAIN-SUFFIX,alicdn.win
+
+
+#万象云加速器
+DOMAIN-SUFFIX,wanxiang2026.com
+DOMAIN-SUFFIX,subwx.com
+
+
 
 
 #牛逼
