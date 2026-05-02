@@ -1,10 +1,7 @@
 #直播
+DOMAIN-SUFFIX,chapturist.com
 
 
-DOMAIN-SUFFIX,sooplive.co.kr
-
-DOMAIN-SUFFIX,neolive.kr
-DOMAIN-SUFFIX,plive.kr
 
 #电影
 DOMAIN-SUFFIX,ziyugui.com
