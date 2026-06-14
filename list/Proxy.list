@@ -24,6 +24,11 @@ DOMAIN-SUFFIX,wowstream2.cloud
 
 DOMAIN-SUFFIX,sub.store
 
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,jsdelivr.net
+
+
+
 
 #NanoCloud
 DOMAIN-SUFFIX,360buyimg.men
