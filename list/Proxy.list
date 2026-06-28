@@ -20,9 +20,6 @@ DOMAIN-SUFFIX,anyukit.com
 DOMAIN-SUFFIX,anys.1010diy.com
 
 DOMAIN-SUFFIX,fetchv.net
-DOMAIN-SUFFIX,wowstream2.cloud
-
-DOMAIN-SUFFIX,sub.store
 
 
 #NanoCloud
@@ -38,7 +35,6 @@ DOMAIN-SUFFIX,v2ny.com
 DOMAIN-SUFFIX,v2ny.me
 
 #牛逼
-DOMAIN-SUFFIX,6.66jc.top
 DOMAIN-SUFFIX,666.66jc.top
 
 #九宵云
@@ -48,9 +44,9 @@ DOMAIN-SUFFIX,shop.starpro.one
 
 
 #视频网站
-DOMAIN-SUFFIX,x.com
 
-#
+
+#另类
 DOMAIN-SUFFIX,xgore.net
 
 
