@@ -22,14 +22,6 @@ DOMAIN-SUFFIX,anys.1010diy.com
 DOMAIN-SUFFIX,fetchv.net
 DOMAIN-SUFFIX,wowstream2.cloud
 
-DOMAIN-SUFFIX,sub.store
-
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,jsdelivr.net
-
-DOMAIN-SUFFIX,yandex.com
-
-
 
 #NanoCloud
 DOMAIN-SUFFIX,360buyimg.men
@@ -51,7 +43,7 @@ DOMAIN-SUFFIX,6.66jc.top
 DOMAIN-SUFFIX,shop.starpro.one
 
 #浏览器
-
+DOMAIN-SUFFIX,yandex.com
 
 #视频网站
 
