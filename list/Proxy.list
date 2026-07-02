@@ -29,8 +29,11 @@ DOMAIN-SUFFIX,edu.360buyimg.men
 
 
 #万象云加速器
-DOMAIN-SUFFIX,wanxiang2026.com
-DOMAIN-SUFFIX,subwx.com
+DOMAIN-SUFFIX,3188.wanxiang2026.com
+
+
+#悦通
+DOMAIN-SUFFIX,my.yue.to
 
 #奈云
 DOMAIN-SUFFIX,v2ny.com
