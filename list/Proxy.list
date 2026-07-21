@@ -33,9 +33,11 @@ DOMAIN-SUFFIX,anyukit.com
 DOMAIN-SUFFIX,1010diy.com
 DOMAIN-SUFFIX,copy.style
 
-
 DOMAIN-SUFFIX,fetchv.net
 
+
+#磁力搜索
+DOMAIN-SUFFIX,bt4gprx.com
 
 #NanoCloud
 DOMAIN-SUFFIX,edu.360buyimg.men
