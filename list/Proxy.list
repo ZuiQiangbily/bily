@@ -28,11 +28,13 @@ DOMAIN-SUFFIX,ziyugui.com
 DOMAIN-SUFFIX,hdzu.cc
 DOMAIN-SUFFIX,remux.wiki
 
-#工具
+#AnyUkit
 DOMAIN-SUFFIX,anyukit.com
 DOMAIN-SUFFIX,1010diy.com
 DOMAIN-SUFFIX,copy.style
+DOMAIN-SUFFIX,amoyshare.info
 
+#工具
 DOMAIN-SUFFIX,fetchv.net
 
 
