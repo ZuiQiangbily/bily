@@ -62,6 +62,9 @@ DOMAIN-SUFFIX,shop.starpro.one
 #airpipi
 DOMAIN-SUFFIX,airpipi.com
 
+#服务器
+DOMAIN-SUFFIX,cloudsilk.io
+
 
 #浏览器
 DOMAIN-SUFFIX,yandex.com
