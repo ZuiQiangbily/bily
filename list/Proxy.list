@@ -85,7 +85,11 @@ DOMAIN-SUFFIX,alphacoders.com
 
 #地图
 DOMAIN-SUFFIX,moomoo.me
+
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,khm.google.com
+DOMAIN-SUFFIX,maps.gstatic.com
 
 
 #驱动
