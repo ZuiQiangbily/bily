@@ -29,6 +29,14 @@ DOMAIN-SUFFIX,asn247.net
 DOMAIN-SUFFIX,whois.pconline.com.cn
 DOMAIN-SUFFIX,1-b.net
 DOMAIN-SUFFIX,cleanip.io
+DOMAIN-SUFFIX,astrill.org
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,sspanel.net
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,null-addr
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,ping0.cc
 
 # DNS 泄漏检测
 DOMAIN-SUFFIX,dnsleaktest.com
