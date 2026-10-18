@@ -24,10 +24,11 @@ DOMAIN-SUFFIX,ip2proxy.com
 DOMAIN-SUFFIX,incolumitas.com
 DOMAIN-SUFFIX,jsonp-ip.com
 DOMAIN-SUFFIX,yalala.com
-DOMAIN-SUFFIX,ip-score.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,asn247.net
-DOMAIN-SUFFIX,jsonp-ip.com
+DOMAIN-SUFFIX,whois.pconline.com.cn
+DOMAIN-SUFFIX,1-b.net
+
 
 # DNS 泄漏检测
 DOMAIN-SUFFIX,dnsleaktest.com
@@ -54,10 +55,6 @@ DOMAIN-SUFFIX,ipdata.co
 DOMAIN-SUFFIX,spur.us
 DOMAIN-SUFFIX,proxycheck.io
 
-# IP 查询辅助
-DOMAIN-SUFFIX,whois.pconline.com.cn
-DOMAIN-SUFFIX,1-b.net
-DOMAIN-SUFFIX,incolumitas.com
 
 # 网络测速
 DOMAIN-SUFFIX,fast.com
