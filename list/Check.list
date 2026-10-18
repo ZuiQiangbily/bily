@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,asn247.net
 DOMAIN-SUFFIX,whois.pconline.com.cn
 DOMAIN-SUFFIX,1-b.net
-
+DOMAIN-SUFFIX,cleanip.io
 
 # DNS 泄漏检测
 DOMAIN-SUFFIX,dnsleaktest.com
